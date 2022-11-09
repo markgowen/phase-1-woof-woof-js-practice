@@ -66,6 +66,7 @@ function updateDoggo(btn, element, isGoodDog) {
         btnStatus(btn, isGoodDog)
     })
 }
+
 function btnStatus(btn, isGoodDog) {
     if (isGoodDog === true) {
         btn.textContent = "Good Dog!"
